@@ -12,6 +12,7 @@
  *   If something goes wrong.
  */
 function ausy_annual_install() {
+  // Create default departments on module install.
   $vid = 'ausy_annual_departments';
   $departments = ['Finance', 'IT', 'Consulting', 'Teaching'];
 

@@ -1,0 +1,22 @@
+<?php
+
+use Drupal\Core\Cache\Cache;
+use Drupal\node\Entity\Node;
+
+/**
+ * Implements hook_ENTITY_TYPE_presave().
+ */
+function ausy_annual_node_presave(Node $node) {
+  // Allows for clearing of blocks based on node type.
+  $tags = ['node_type:' . $node->getType()];
+  Cache::invalidateTags($tags);
+}
+
+/**
+ * Implements hook_ENTITY_TYPE_delete().
+ */
+function ausy_annual_node_delete(Node $node) {
+  // Allows for clearing of blocks based on node type.
+  $tags = ['node_type:' . $node->getType()];
+  Cache::invalidateTags($tags);
+}

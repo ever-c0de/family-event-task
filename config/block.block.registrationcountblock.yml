@@ -1,0 +1,20 @@
+uuid: 1d39f33c-8a79-4f61-9e99-23f714bb4003
+langcode: en
+status: true
+dependencies:
+  module:
+    - ausy_annual
+  theme:
+    - olivero
+id: registrationcountblock
+theme: olivero
+region: content_above
+weight: 0
+provider: null
+plugin: ausy_registration_count_block
+settings:
+  id: ausy_registration_count_block
+  label: 'Registration Count block'
+  label_display: visible
+  provider: ausy_annual
+visibility: {  }
