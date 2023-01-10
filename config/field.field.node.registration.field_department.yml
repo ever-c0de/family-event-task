@@ -1,0 +1,29 @@
+uuid: c96a8b9e-69ee-438a-af6f-a1e00627ae61
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_department
+    - node.type.registration
+    - taxonomy.vocabulary.ausy_annual_departments
+id: node.registration.field_department
+field_name: field_department
+entity_type: node
+bundle: registration
+label: Department
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      ausy_annual_departments: ausy_annual_departments
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

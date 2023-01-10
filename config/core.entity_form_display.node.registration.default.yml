@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.field.node.registration.field_amount_of_kids
     - field.field.node.registration.field_amount_of_vegetarians
+    - field.field.node.registration.field_department
     - field.field.node.registration.field_email_address
     - field.field.node.registration.field_name_of_the_employee
     - field.field.node.registration.field_one_plus
@@ -34,6 +35,16 @@ content:
     weight: 124
     region: content
     settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_department:
+    type: entity_reference_autocomplete
+    weight: 126
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
       placeholder: ''
     third_party_settings: {  }
   field_email_address:

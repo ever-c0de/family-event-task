@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.field.node.registration.field_amount_of_kids
     - field.field.node.registration.field_amount_of_vegetarians
+    - field.field.node.registration.field_department
     - field.field.node.registration.field_email_address
     - field.field.node.registration.field_name_of_the_employee
     - field.field.node.registration.field_one_plus
@@ -33,6 +34,14 @@ content:
       prefix_suffix: true
     third_party_settings: {  }
     weight: 104
+    region: content
+  field_department:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 106
     region: content
   field_email_address:
     type: basic_string

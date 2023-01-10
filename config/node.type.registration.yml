@@ -11,7 +11,7 @@ third_party_settings:
     parent: 'main:'
 name: Registration
 type: registration
-description: ''
+description: 'Content type for annual company wide AUSY family event.'
 help: ''
 new_revision: true
 preview_mode: 1

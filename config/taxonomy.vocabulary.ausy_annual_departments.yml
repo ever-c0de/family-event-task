@@ -1,0 +1,13 @@
+uuid: 38e9a495-a725-49a5-bd74-58a6d2cb7ad9
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - ausy_annual
+_core:
+  default_config_hash: UrzvtdaOuxB-NlIjoVynkQDdS_dd4DgnJ6gq_9PvGIU
+name: Departments
+vid: ausy_annual_departments
+description: 'Default departments vocabulary'
+weight: 0
