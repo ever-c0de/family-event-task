@@ -1,0 +1,7 @@
+ausy_annual.register_form:
+  path: '/registration/{department}'
+  defaults:
+    _form: '\Drupal\ausy_annual\Form\AusyAnnualRegisterForm'
+    _title: 'Annual company wide AUSY family event'
+  requirements:
+    _permission: 'administer blocks'

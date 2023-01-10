@@ -1,0 +1,6 @@
+name: AUSY Annual
+type: module
+description: Allows you to register for the annual party
+package: Custom
+core_version_requirement: ^9
+

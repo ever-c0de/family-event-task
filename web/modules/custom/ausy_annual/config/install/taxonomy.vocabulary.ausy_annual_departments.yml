@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - ausy_annual
+name: 'Departments'
+vid: ausy_annual_departments
+description: 'Default departments vocabulary'
+hierarchy: 0
+weight: 0

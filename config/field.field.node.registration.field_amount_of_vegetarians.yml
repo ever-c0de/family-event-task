@@ -1,0 +1,23 @@
+uuid: 7c086a0c-d527-4419-9e1a-5f8a97afe3b0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_amount_of_vegetarians
+    - node.type.registration
+id: node.registration.field_amount_of_vegetarians
+field_name: field_amount_of_vegetarians
+entity_type: node
+bundle: registration
+label: 'Amount of vegetarians'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 0
+  max: 100
+  prefix: ''
+  suffix: ''
+field_type: integer
