@@ -1,0 +1,4 @@
+administer ausy_annual registrations:
+  title: 'Administer AUSY Annual registrations'
+  description: 'You can manage registrations with this permission.'
+  restrict access: true

@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - ausy_annual
+id: department_manager
+label: 'Department manager'
+weight: 4
+is_admin: null
+permissions:
+  - 'administer ausy_annual registrations'

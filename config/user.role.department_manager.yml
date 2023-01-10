@@ -1,0 +1,12 @@
+uuid: 4e1408a9-65eb-493a-818e-7d19df6139ea
+langcode: en
+status: true
+dependencies:
+  module:
+    - ausy_annual
+id: department_manager
+label: 'Department manager'
+weight: 4
+is_admin: null
+permissions:
+  - 'administer ausy_annual registrations'

@@ -1,0 +1,14 @@
+uuid: 031ac2b6-43a0-4afc-bcb8-dc4cad9b12f1
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.department_manager
+  module:
+    - user
+id: user_add_role_action.department_manager
+label: 'Add the Department manager role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: department_manager
